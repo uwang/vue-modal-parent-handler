@@ -1,0 +1,23 @@
+{
+  "name": "vue-modal-parent-handler",
+  "version": "1.0.0",
+  "description": "Vue mixin for handling parent modal positioning",
+  "main": "index.js",
+  "keywords": ["vue", "modal", "dialog", "positioning"],
+  "author": "Liam Wang",
+  "license": "MIT",
+  "peerDependencies": {
+    "vue": "^2.6.14"
+  },
+  "files": [
+    "index.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uwang/vue-modal-parent-handler.git"
+  },
+  "bugs": {
+    "url": "https://github.com/uwang/vue-modal-parent-handler/issues"
+  },
+  "homepage": "https://github.com/uwang/vue-modal-parent-handler#readme"
+}

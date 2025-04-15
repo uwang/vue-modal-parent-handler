@@ -1,0 +1,15 @@
+# 开发配置
+.npmrc
+.gitignore
+.editorconfig
+
+# 测试相关
+/test/
+/coverage/
+
+# 开发环境
+/node_modules/
+.DS_Store
+
+# 文档
+/README.md (如果已包含在files字段中则保留)
