@@ -8,7 +8,7 @@ export default {
     methods: {
       pushParentAway(parentClass) {
         if (parentClass) {
-          const element = document.querySelector(`.${parentClass}`)?.parentElement;
+          const element = document.querySelector(`.${parentClass}`) && document.querySelector(`.${parentClass}`).parentElement;
           if (element) {
             element.style.transform = 'translateX(-100vw)';
           } else {
@@ -18,7 +18,7 @@ export default {
       },
       pullParentBack(parentClass) {
         if (parentClass) {
-          const element = document.querySelector(`.${parentClass}`)?.parentElement;
+          const element = document.querySelector(`.${parentClass}`) && document.querySelector(`.${parentClass}`).parentElement;
           if (element) {
             element.style.transform = 'none';
           }

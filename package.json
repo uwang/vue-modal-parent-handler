@@ -1,6 +1,6 @@
 {
   "name": "vue-modal-parent-handler",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Vue mixin for handling parent modal positioning",
   "main": "index.js",
   "keywords": ["vue", "modal", "dialog", "positioning"],
